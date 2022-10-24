@@ -5,31 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Master Catalogo</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <div><img src="" alt="Logo Alephee"></div>
+    <nav class="nav-bar">
+        <div class="container-logo">
+            <img src="/assets/logo-alephee.png" alt="Logo Alephee">
+        </div>
     </nav>
-    <main>
+    <main class="main-container">
         <section class="container-banner-primary">
             <div class="banner">
-                <div>
+                <div class="banner-text">
                     <h1>Digital Shelf</h1>
-                    <hr class="separacion">
+                    <hr class="separador">
                     <span>Todos los <b>catálogos oficiales</b>,<br>en un solo lugar.</span>
                 </div>
-                <div>
-                    <img src="" alt="imagen banner">
+                <div class="banner-img">
+                    <!-- <img src="/assets/img-back-banner.png" alt="imagen banner"> -->
                 </div>
             </div>
         </section>
         <section class="container-banner-secondary">
-            <div>Conectate a los <b>catálogos</b> que necesitas para hacer crecer tu negocio</div>
-            <form action="" method="get">
-                <div>
-                    <input type="search" name="" id="">
-                    <button type="submit" class="fa-solid fa-magnifying-glass"></button>
-                </div>
+            <div class="banner-txt">
+                <span>
+                    Conectate a los <b class="c-purpe">catálogos</b> que necesitas para hacer crecer tu negocio
+                </span>
+            </div>
+            <form class="container-search" action="" method="get">
+                <input type="search" name="" id="">
+                <button type="submit" class="fa-solid fa-magnifying-glass btn-icon"></button>
             </form>
         </section>
         <section class="container-marcas">
@@ -42,8 +47,9 @@
             </div>
         </section>
     </main>
-    <footer>
-        <img src="" alt="Logo Alephee footer">
+    <footer class="footer-container">
+        <img src="/assets/logo-alephee-blanco.png" alt="Logo Alephee footer">
+        <span class="separador-vertical"></span>
         <span>www.alephee.com</span>
     </footer>
 </body>

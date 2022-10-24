@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Roboto-Regular", sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #fefefe;
+  margin: 0px;
+}
+
+.c-purpe {
+  color: #82368C;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 24px 0px 24px;
+  gap: 32px;
+}
+.main-container > section {
+  width: 100%;
+}
+
+.footer-container {
+  background-color: #331B50;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 32px;
+  color: #fefefe;
+}
+.footer-container > .separador-vertical {
+  width: 1px;
+  height: 48px;
+  background-color: #fefefe;
+  margin: 0px;
+}
+
+.container-banner-primary .banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 248px;
+  color: #fefefe;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.container-banner-primary .banner > .banner-text {
+  width: 50%;
+  height: 100%;
+  background-color: #331B50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding-left: 50px;
+}
+.container-banner-primary .banner > .banner-text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 57px;
+  margin: 0px;
+}
+.container-banner-primary .banner > .banner-text .separador {
+  width: 30px;
+  height: 4px;
+  margin: 0px;
+  background-color: #E55A72;
+  border: none;
+}
+.container-banner-primary .banner > .banner-text span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  margin: 0px;
+}
+.container-banner-primary .banner > .banner-img {
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(to right, #331B50, #E55A72);
+}
+
+.container-banner-secondary .banner-txt {
+  width: 740px;
+  margin: auto;
+  padding: 16px 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3D3F50;
+}
+.container-banner-secondary .banner-txt span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 47px;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 72px;
+  background-color: #fff;
+  padding: 0px 24px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
